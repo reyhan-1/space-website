@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/space-themed-website/static/css/main.197d72a3.chunk.css",
-    "main.js": "/space-themed-website/static/js/main.1d5f7b3e.chunk.js",
-    "main.js.map": "/space-themed-website/static/js/main.1d5f7b3e.chunk.js.map",
-    "runtime-main.js": "/space-themed-website/static/js/runtime-main.458058e6.js",
-    "runtime-main.js.map": "/space-themed-website/static/js/runtime-main.458058e6.js.map",
-    "static/js/2.de78d4af.chunk.js": "/space-themed-website/static/js/2.de78d4af.chunk.js",
-    "static/js/2.de78d4af.chunk.js.map": "/space-themed-website/static/js/2.de78d4af.chunk.js.map",
-    "static/js/3.c97f1a9a.chunk.js": "/space-themed-website/static/js/3.c97f1a9a.chunk.js",
-    "static/js/3.c97f1a9a.chunk.js.map": "/space-themed-website/static/js/3.c97f1a9a.chunk.js.map",
-    "static/js/4.ddbaf1aa.chunk.js": "/space-themed-website/static/js/4.ddbaf1aa.chunk.js",
-    "static/js/4.ddbaf1aa.chunk.js.map": "/space-themed-website/static/js/4.ddbaf1aa.chunk.js.map",
-    "index.html": "/space-themed-website/index.html",
-    "static/css/main.197d72a3.chunk.css.map": "/space-themed-website/static/css/main.197d72a3.chunk.css.map",
-    "static/js/2.de78d4af.chunk.js.LICENSE.txt": "/space-themed-website/static/js/2.de78d4af.chunk.js.LICENSE.txt",
-    "static/js/3.c97f1a9a.chunk.js.LICENSE.txt": "/space-themed-website/static/js/3.c97f1a9a.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/space-themed-website/static/media/ufo.953c1857.png",
-    "static/media/click.2861d655.mp3": "/space-themed-website/static/media/click.2861d655.mp3"
+    "main.css": "/space-website/static/css/main.53c1949f.chunk.css",
+    "main.js": "/space-website/static/js/main.1d5f7b3e.chunk.js",
+    "main.js.map": "/space-website/static/js/main.1d5f7b3e.chunk.js.map",
+    "runtime-main.js": "/space-website/static/js/runtime-main.6e1e575c.js",
+    "runtime-main.js.map": "/space-website/static/js/runtime-main.6e1e575c.js.map",
+    "static/js/2.de78d4af.chunk.js": "/space-website/static/js/2.de78d4af.chunk.js",
+    "static/js/2.de78d4af.chunk.js.map": "/space-website/static/js/2.de78d4af.chunk.js.map",
+    "static/js/3.c97f1a9a.chunk.js": "/space-website/static/js/3.c97f1a9a.chunk.js",
+    "static/js/3.c97f1a9a.chunk.js.map": "/space-website/static/js/3.c97f1a9a.chunk.js.map",
+    "static/js/4.ddbaf1aa.chunk.js": "/space-website/static/js/4.ddbaf1aa.chunk.js",
+    "static/js/4.ddbaf1aa.chunk.js.map": "/space-website/static/js/4.ddbaf1aa.chunk.js.map",
+    "index.html": "/space-website/index.html",
+    "static/css/main.53c1949f.chunk.css.map": "/space-website/static/css/main.53c1949f.chunk.css.map",
+    "static/js/2.de78d4af.chunk.js.LICENSE.txt": "/space-website/static/js/2.de78d4af.chunk.js.LICENSE.txt",
+    "static/js/3.c97f1a9a.chunk.js.LICENSE.txt": "/space-website/static/js/3.c97f1a9a.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/space-website/static/media/ufo.953c1857.png",
+    "static/media/click.2861d655.mp3": "/space-website/static/media/click.2861d655.mp3"
   },
   "entrypoints": [
-    "static/js/runtime-main.458058e6.js",
+    "static/js/runtime-main.6e1e575c.js",
     "static/js/2.de78d4af.chunk.js",
-    "static/css/main.197d72a3.chunk.css",
+    "static/css/main.53c1949f.chunk.css",
     "static/js/main.1d5f7b3e.chunk.js"
   ]
 }
