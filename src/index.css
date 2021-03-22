@@ -1,0 +1,600 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Acme&family=Lato:wght@300&display=swap');
+ 
+
+ * {
+	 flex-direction: column;
+   justify-content: center;
+   margin-bottom: 0px;  
+   margin-left:0 ;
+   margin-right:0 ;
+   margin-top: 0;
+   scroll-margin-block-end: 0;
+   
+ 
+   }
+
+   .Parallax__astro{
+    background-image: url("ufo.png");
+    z-index: -15;
+    float: left;
+    background-size: contain;
+    width: 4em;
+    height:4em;
+    margin-left: 90%;
+    animation: 20s infinite alternate ease-in-out flash;
+    margin-bottom: 0px;
+
+   }
+
+   .Parallax__ufo{
+    background-image: url("ast.png");
+    z-index: -15;
+    float: left;
+    position: static;
+    background-size: contain;
+    width: 8em;
+    height: 8em;
+    margin-left: 0%;
+    margin-right: 0;
+    animation: 9s infinite alternate ease-in-out float;
+   }
+
+   .Parallax__astro:before {
+    z-index: -21;
+  }
+  
+  .Parallax__astro:after {
+    z-index: -21;
+    box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);
+  }
+
+.Parallax__ufo:before {
+  z-index: -1;
+}
+
+.Parallax__ufo:after {
+  box-shadow: 25px 25px 25px rgba(46, 46, 49, .8);
+}
+
+
+
+
+  
+  .Parallax__img{
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    opacity: 0.7;
+    margin-left: 5em;
+    margin-right: 25em;
+    flex-direction: column;
+    justify-content: center;
+    z-index: -1;
+  }
+  
+  .Parallax__michigan, .Parallax__bilkent, .Parallax__ekin, .Parallax__losev {
+    z-index: -1;
+    height: 40em;
+   	 flex-direction: column;
+     background-size: contain;
+     position: static;
+     display: inline-block;
+     opacity: 0.7;
+     margin-bottom: 1em;      
+	 width: cover;
+	 flex-direction: column;
+	 background-size: contain;
+  }
+  
+   .Parallax__michigan {
+    background-size: contain;
+     background-image: url("michigan.png");
+    position: static;
+    margin-left: 25em; 
+    width: 5em;
+    height: 5em;
+    width: cover;
+    z-index: -1;
+    background-size: contain;
+     transition: all 0.75s ease-out;
+  }
+
+  .Parallax__losev {
+    background-size: contain;
+     background-image: url("losev.png");
+    position: static;
+    margin-left: 25em; 
+    width: 5em;
+    height: 5em;
+    width: cover;
+    z-index: -1;
+    background-size: contain;
+     transition: all 0.75s ease-out;
+  }
+  .Parallax__losev:hover{
+    opacity: 1;
+  }
+  
+  .Parallax__michigan:hover{
+    opacity: 1;
+  }
+  
+   .Parallax__bilkent {
+    background-size: contain;
+     background-image: url("bilkent.png");
+     width: 5em;
+     height: 5em;
+      margin-left: 25em;
+      transition: all 0.75s ease-out;
+      z-index: -1;
+  }
+  .Parallax__bilkent:hover{
+    opacity: 1;
+  }
+   .Parallax__ekin {
+    width: 5em;
+    height: 5em;
+    margin-left: 25em;
+     transition: all 0.75s ease-out;
+     background-image: url("ekin.jpg");
+     z-index: -1;
+  }
+  .Parallax__ekin:hover{
+    opacity: 1;
+  }
+   
+
+ .Parallax__content {
+	 flex-direction: column;
+	 justify-content: center;
+	 display: flex;
+	 font-family: 'Lato', sans-serif;
+	 background-color: #372f6a;
+	/* For browsers that do not support gradients */
+	 background-image: linear-gradient(to bottom right, #372f6a, #372f6a, darkslateblue, #396a93, SteelBlue, #7eaacd, #91b6d4);
+   color: #fff;   
+   text-shadow: 0 20px 25px #2e2e31, 0 40px 60px #2e2e31;  
+
+}
+ .Parallax__content__cta {
+   
+	 display: flex;
+	 align-items: center;
+	 color: white;
+	 border: 1px solid white;
+	 border-radius: 20%;
+	 margin-left: 0em;
+	 margin-right: 0em;
+	 margin-bottom: 2.5em;
+   flex-direction: column;
+   z-index: 11;
+}
+
+.Parallax__content__cta__he {
+  text-align: justify;
+  margin-top: 10em;
+  display: flex;
+  align-items: left;
+  color: white;
+  padding: 2em;
+  margin-left: 8em;
+  margin-right: 8em;
+  margin-bottom: 4em;
+  margin-top:1em;
+  z-index: 111;
+
+
+}
+
+ .Parallax__content__heading {
+	 margin-top: 3em;
+	 font-family: 'Acme', sans-serif;
+	 text-align: left;
+   font-size: 0.9em;
+
+}
+
+
+ .Parallax__content__heading__text {
+	 font-size: 2.5em;
+   text-align: center;
+   margin-top: 2em;
+   margin-left: 5em;
+   margin-right: 5em;
+   
+}
+
+.Parallax__content__heading__who{
+  text-align:left;
+  z-index: 1;
+  margin-left: 50%;
+  margin-right: 50%;
+
+}
+
+.Parallax__content__heading2__text {
+  text-align: center;
+  align-items: center;
+  float:right;
+  color: white;
+  list-style: none;
+  margin-right: 8em;
+}
+
+.Parallax__content__heading3__text {
+ min-width: 20em;
+ margin-left: 10em;
+  text-align: left;
+  font-size: 15px;  
+   margin-left: 10em;
+  margin-right: 35em;
+
+}
+
+.Parallax__content__heading__capt {
+   text-align: right;
+   margin: 5px;
+}
+ .Parallax__content__myicons__git, .Parallax__content__myicons,  .Parallax__content__myicons__linkedin,  .Parallax__content__myicons__insta{
+	 align-items: center;
+	 float: left;
+	 color: white;
+	 list-style: none;
+   margin: 5px;
+   padding: 0 2px;
+
+}
+ .Parallax__content__myicons:hover {
+   transform: scale(1.2);
+   
+}
+ .Parallax__content__li {
+	 font-family: Acme;
+	 display: inline-block;
+	 color: white;
+	 list-style: none;
+	 margin-top: 20px;
+   margin: 6px;
+   text-shadow:none ; 
+}
+
+a,
+a:link,
+a:visited {
+  text-shadow:none ; 
+ text-decoration: none;
+color: #fff;
+}
+a:hover {
+ color:orangered ;
+ 
+}
+span:before, span:after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  bottom: 0%; 
+  margin-top: 0.5px;
+  background: #fff;
+}
+
+span:before {
+  left: -0.5px;
+}
+span:after {
+  right: 2.5px;
+  background: #fff;
+  transition: width 0.9s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+span:hover:before {
+  background: #fff;
+  width: 100%;
+  transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+span:hover:after {
+  background: transparent;
+  width: 100%;
+  transition: 0s;
+}
+
+a:link:active, a:visited:active {
+  color: (internal value);
+}
+
+
+
+ .Parallax__new-section {
+   flex-direction: column;
+	 flex-direction: column;
+	 background-color: white;
+   color: black;
+   width:cover;
+height: 100vh;
+text-shadow:none ; 
+margin-bottom:-100px;
+}
+
+
+.Parallax__new-section2{
+  flex-direction: column;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  width:cover;
+height: 8em;
+text-shadow:none ; 
+
+}
+
+.Parallax__new-section__li {
+  font-family: Acme;
+  flex-direction: column;
+  display: inline-block;
+  color: white;
+  list-style: none;
+  margin-top: 20px;
+  margin: 6px;
+  text-shadow:none ; 
+}
+
+
+.Parallax__new-section__timeline__start{
+  text-shadow:none ; 
+  border: 3px solid rgb(0, 0, 0);
+  background-color: #5c2f6a;
+  width: 8em;
+  text-align: center;
+  float: left;
+  margin-right: 0.5em;
+  color:white;
+}
+
+.Parallax__new-section__timeline__end{
+  color:white;
+  flex-direction: column;
+  border: 3px solid rgb(0, 0, 0);
+  background-color: #372f6a;
+  width: 8em;
+  text-align: center;
+  text-shadow:none ; 
+  float:left;
+
+  list-style: none;
+  margin-top: 0px;
+  margin-left: 0.5em;
+  padding: 0 0em;
+}
+
+ .Parallax__new-section__cta {
+   display: flex;
+	 align-items: center;
+	 color: #fff;
+	 border: 1px solid white;
+	 padding: 1.5em;
+	 border-radius: 1px;
+	 margin-left: 4em;
+	 margin-right: 4em;
+   flex-direction: column;
+   text-shadow:none ; 
+}
+ .Parallax__new-section__heading {
+   margin-left: 4em;
+   flex-direction: column;
+	 margin-right: 4em;
+	 margin-top: 4em;
+	 font-family: 'Lato', sans-serif;
+   text-align: left;
+
+	 font-size: 0.9em;
+}
+ .Parallax__new-section__heading__text {
+	 text-align: center;
+}
+.Parallax__new-section__content{
+  text-align: left;
+  flex-direction: column;
+  color:black;
+  margin-left: 10%;
+
+  margin-right: 10%;
+  margin-top: 2em;
+  border: 1px solid white;
+
+  min-width: 29em;
+
+}
+
+.Parallax__technologies {
+  width: cover;
+  height: cover;
+  text-align: center;
+
+  align-content: center;
+  align-items: center;
+  flex: inline;
+  flex-direction:column;
+  background-color: white;
+  color: darkslateblue;
+ /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, #91b6d4, #7eaacd, SteelBlue,  #396a93, darkslateblue, #372f6a,  #372f6a);
+  color: #fff;
+  margin-bottom: 0px;
+  margin-top: 0px;
+
+}
+
+.Parallax__technologies__heading{
+  text-align: center;
+  margin: 1em;
+  
+}
+
+.Parallax__tech__icons{
+
+
+
+  margin-right: 10em;
+  margin-left: 10em;
+  transform-style: preserve-3d;
+  display: inline-table;
+}
+
+.Parallax__three {
+  transform-style: preserve-3d;
+  background-image: url("three.png");
+
+ width: 6em;
+ height: 6em;
+ background-size: contain;
+  transition: all 0.75s ease-out;
+  
+}
+.Parallax__three:hover{
+  transform: rotateZ(30deg);
+}
+
+.Parallax__react {
+  background-image: url("react.png");
+ margin-top:1.5em;
+  margin-left: 0em;
+ width: 6em;
+ height: 4em;
+ background-size: contain;
+  transition: all 0.95s ease-out;
+}
+.Parallax__react:hover{
+  transform: rotateZ(180deg);
+}
+
+
+.Parallax__java {
+ 
+  background-image: url("java.png");
+margin-left: 1.5em;
+margin-top:0.2em;
+ width: 3em;
+ height: 6em;
+ background-size: contain;
+  transition: all 0.95s ease-out;
+}
+.Parallax__java:hover{
+  transform: rotateZ(6deg);
+}
+
+.Parallax__css {
+ 
+  background-image: url("css.png");
+margin-left: 0.7em;
+margin-top: 0em;
+ width: 5em;
+ height: 6em;
+ background-size: contain;
+  transition: all 0.95s ease-out;
+}
+.Parallax__css:hover{
+  transform: rotateZ(360deg);
+}
+
+.Parallax__html {
+ 
+  background-image: url("html.png");
+  margin-left: 0.6em;
+  margin-top: 0em;
+   width: 5em;
+   height: 6em;
+ background-size: contain;
+  transition: all 0.95s ease-out;
+}
+.Parallax__html:hover{
+  transform: rotateZ(-26deg);
+}
+
+.Parallax__js {
+ 
+  background-image: url("js.png");
+  margin-left: 0.7em;
+  margin-top: 0em;
+   width: 5em;
+   height: 6em;
+ background-size: contain;
+  transition: all 0.95s ease-out;
+}
+.Parallax__js:hover{
+  transform: rotateZ(26deg);
+}
+
+.Parallax__python {
+ 
+  background-image: url("python.png");
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+   width: 5em;
+   height: 5em;
+ background-size: contain;
+  transition: all 0.95s ease-out;
+}
+.Parallax__python:hover{
+  transform: rotateZ(126deg);
+}
+
+.Parallax__mongo {
+ 
+  background-image: url("mongo.png");
+  margin-left: 0.5em;
+  margin-top: 0.3em;
+   width: 5em;
+   height: 6em;
+ background-size: contain;
+  transition: all 0.95s ease-out;
+}
+.Parallax__mongo:hover{
+  transform: rotateZ(-40deg);
+}
+
+.Parallax__circle {
+  margin-left: 1em;
+  margin-bottom: 2em;
+  float: left;
+  width: 6em;    
+  height: 6em;
+  background: rgba(245, 245, 245, 1);
+  position:sticky;
+  border-radius: 30%;
+  z-index: -5;
+  transition: all 0.75s ease-out;
+}
+.Parallax__circle:hover {
+  transform: scale(0.8);
+
+}
+
+ .Parallax footer {
+  width: cover;
+  height: cover;
+	 margin-top: 8em;
+	 text-align: center;
+	 color: rgb(0, 0, 0);
+	 border-top: 1px solid #111;
+   font-size: 0.5em;
+   margin-bottom: 4em;
+    color: #fff;   
+   
+}
+
+@keyframes float {
+  100% {
+    transform: translateX(500%) translateY(120%) rotate(300deg);
+  }
+}
+
+
+@keyframes flash {
+
+  100% {
+    transform: translateX(-800%) translateY(20%) rotate(60deg);
+  }
+}
